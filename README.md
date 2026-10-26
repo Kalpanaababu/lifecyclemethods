@@ -29,12 +29,75 @@ Step 7: Save and run the application.
 ```
 /*
 Program to print the text “Hello World”.
-Developed by:
-Registeration Number :
+Developed by: Kalpanaa Babu TM
+Registeration Number : 21224230112
 */
+package com.example.test;
+
+import android.os.Bundle;
+import android.widget.Toast;
+
+import androidx.activity.EdgeToEdge;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
+
+public class MainActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+        setContentView(R.layout.activity_main);
+        Toast toast = Toast.makeText(getApplicationContext(),"onCreateCalled",Toast.LENGTH_LONG);
+        toast.show();
+
+
+    }
+    protected void onStart() {
+        super.onStart();
+        Toast toast = Toast.makeText(getApplicationContext(), "onStart Called", Toast.LENGTH_LONG);
+        toast.show();
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Toast toast = Toast.makeText(getApplicationContext(), "onRestart Called", Toast.LENGTH_LONG);
+        toast.show();
+    }
+
+    protected void onPause() {
+        super.onPause();
+        Toast toast = Toast.makeText(getApplicationContext(), "onPause Called", Toast.LENGTH_LONG);
+        toast.show();
+    }
+
+    protected void onResume() {
+        super.onResume();
+        Toast toast = Toast.makeText(getApplicationContext(), "onResume Called", Toast.LENGTH_LONG);
+        toast.show();
+    }
+
+    protected void onStop() {
+        super.onStop();
+        Toast toast = Toast.makeText(getApplicationContext(), "onStop Called", Toast.LENGTH_LONG);
+        toast.show();
+    }
+
+    protected void onDestroy() {
+        super.onDestroy();
+        Toast toast = Toast.makeText(getApplicationContext(), "onDestroy Called", Toast.LENGTH_LONG);
+        toast.show();
+    }
+}
 ```
 
 ## OUTPUT
+<img width="1917" height="1138" alt="image" src="https://github.com/user-attachments/assets/fa0100ad-3994-4e30-839c-baca14381f4f" />
+
+<img width="1917" height="1137" alt="image" src="https://github.com/user-attachments/assets/33c4ef66-11b0-4ea6-9f3c-b1e4b67b7e72" />
 
 
 

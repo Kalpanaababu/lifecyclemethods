@@ -1,4 +1,4 @@
-# Ex.No:2 To create a HelloWorld Activity using all lifecycles methods to display messages.
+# Ex.No:1 To create a HelloWorld Activity using all lifecycles methods to display messages.
 
 
 ## AIM:
@@ -95,9 +95,12 @@ public class MainActivity extends AppCompatActivity {
 ```
 
 ## OUTPUT
-<img width="1917" height="1138" alt="image" src="https://github.com/user-attachments/assets/fa0100ad-3994-4e30-839c-baca14381f4f" />
 
-<img width="1917" height="1137" alt="image" src="https://github.com/user-attachments/assets/33c4ef66-11b0-4ea6-9f3c-b1e4b67b7e72" />
+<img width="1917" height="1137" alt="image" src="https://github.com/user-attachments/assets/96f61620-4ec2-4c1f-8219-4126bbff8999" />
+
+
+<img width="1916" height="1150" alt="image" src="https://github.com/user-attachments/assets/74614996-74d0-4921-a9b0-df1619092f92" />
+
 
 
 
